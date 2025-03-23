@@ -1,0 +1,367 @@
+ 
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  
+    /* color: rgb(10, 10, 10); */
+    text-decoration:none;
+   
+}
+body{ 
+    background:linear-gradient(rgb(0, 81, 88),rgb(113, 114, 114))  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.forget {
+   /* remove the underline */
+ text-decoration: none;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+
+header{
+    
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background: transparent;
+    align-items:center;
+    padding: 15px 15px ;
+    background: #19d2dc;
+   top: 0;
+   left: 0;
+   width: 100%;
+   justify-content: space-between;
+   
+   
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 20px;
+    padding-right: 70px;
+    font-weight: bold; color: azure;
+    font-size: 20px;
+}
+
+.nav-link li {
+    /* remove . ul list */
+    display: inline-block;
+    padding-left: 10px;
+}
+.nav-link li a{
+    color: azure;
+    transition: .3s;
+    padding-right: 20px;
+  
+  
+}
+.nav-link a:hover{
+   text-shadow:1px 1px  black;
+  text-decoration-line: underline;
+
+}
+.nav-link a:active{
+    color:   rgb(126, 25, 25);
+    
+ 
+ } 
+ nav{
+    font-size:20px ;
+ }
+ .my{
+    height:300px ;
+    width:70%;
+    border-radius: 100%;
+    
+} 
+.my:hover{
+    box-shadow: 0 0 20px rgb(8, 179, 173),0 0 20px rgb(132, 255, 251);
+    height:350px ;
+    width:75%;
+}
+
+.portext{
+    margin-top:7%;
+    float:left;
+    font-size: 20px;
+    color:white;
+    width:69%;
+    text-align: center;
+    align-items: center;
+    
+}
+span{
+    font-size:15px;
+}
+.porimg{
+    margin-top:7%;
+    float: right;
+    width:30%;
+ 
+  
+}
+.icon a{
+   
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    background: transparent;
+    height:40px;
+    width: 40px;
+    border: 3px solid rgb(73, 199, 185);
+    border-radius: 50%;
+    color:rgb(73, 199, 185);
+    text-align: center;
+    margin: 2px 2px 2px 2px;
+    
+} 
+.icon a:hover{
+   background-color: #009ba3;
+   color: rgb(30, 61, 61);
+   box-shadow: 0 0 20px rgb(0, 238, 255) ;
+}
+.data{
+    background-color: aqua;
+    padding: 13px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    color:rgb(30, 61, 61);
+    border: 4px solid rgba(0, 107, 117, 0.756);
+     font-size: 20px;
+}
+.data:hover{
+    background-color: #6bf8ff;
+    color: rgb(30, 61, 61);
+    box-shadow: 0 0 5px rgb(79, 243, 255), 0 0 5px rgb(0, 238, 255), 0 0 120px rgb(20, 239, 255), 0 0 100px rgb(0, 238, 255)
+
+}
+.info{
+    color:rgb(7, 37, 37);
+    text-shadow: 0 0 10px cyan;
+    
+}
+.username{
+    
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+   
+}
+.username input{
+    font-size:20px;
+}
+#usr{
+    color: blueviolet;
+    font-size:20px
+}
+.sub{
+    background-color: rgb(83, 236, 193);
+    padding:3px;
+    border-radius:10px;
+    letter-spacing: 1px;
+    color:rgb(30, 61, 61);
+    border: 4px solid rgba(49, 186, 165, 0.756);
+    font-size: 20px;
+
+}
+.sub:active{
+    background-color: rgba(148, 223, 68, 0.182);
+    padding:3px;
+    border-radius:10px;
+    letter-spacing: 1px;
+    color:rgb(255, 221, 0);
+    border: 4px solid rgba(49, 66, 252, 0.756);
+}
+.about{
+    float: left;
+    width:50%;
+    margin-left:30px;
+   
+     
+ 
+    
+}
+.a1{
+    float: left;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+.about p h1{
+    font-size:1px
+
+}
+.about img{
+    height:400px ;
+    width:300px;
+    border-radius: 40px;
+}
+.para{
+    float: left;
+    width:45%;
+    text-align: center;
+    font-size:20 ;
+    color: #1aeeb6;
+}
+.mi{
+    text-decoration: underline;
+    color: rgb(209, 226, 240);
+}
+.service{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+    margin-top:0;
+    height: 500px;
+}
+.service2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+    margin-top:0;
+    height: 500px;
+}
+.se h1{
+    margin-top: 80px;
+    float: left;
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+.service p{
+    padding: 10px;
+    font-size: 20px;
+    color: #1aeeb6;
+}
+.service2 p{
+    padding: 10px;
+    font-size: 20px;
+    color: #1aeeb6;
+}
+ 
+
+.service div:hover{
+    box-shadow: 1px 1px 20px rgb(32, 181, 255),0 0 40px rgb(120, 246, 255);
+    color: #ffffff;
+    width:23%;
+    height: 300px;
+    padding: 20px;
+    
+     
+
+}
+.service2 div:hover{
+    box-shadow: 1px 1px 20px rgb(32, 181, 255),0 0 40px rgb(120, 246, 255);
+    color: #ffffff;
+    width:23%;
+    height: 300px;
+    padding: 20px;
+}
+.ser-list1  {
+    width:20%;
+    margin-left: 2%;
+    margin-right: 2px;
+    height:220px;
+    float: left;
+    border: 4px solid rgb(0, 255, 247);
+    background:radial-gradient(rgb(0, 81, 88),rgb(105, 173, 173))  ;
+    
+}
+.ser-list2 {
+    width:20%;
+    margin-left: 2%;
+    margin-right: 2px;
+    height:220px;
+    float: left;
+    border: 4px solid rgb(0, 255, 247);
+    background:radial-gradient(rgb(0, 81, 88),rgb(105, 173, 173))  ;
+    
+}
+.ser-list3  {
+    width:20%;
+    margin-left: 2%;
+    margin-right: 2px;
+    height:220px;
+    float: left;
+    border: 4px solid rgb(0, 255, 247);
+    background:radial-gradient(rgb(0, 81, 88),rgb(105, 173, 173))  ;
+    
+}
+.ser-list4  {
+    width:20%;
+    margin-left: 2%;
+    margin-right: 2px;
+    height:220px;
+    float: left;
+    border: 4px solid rgb(0, 255, 247);
+    background:radial-gradient(rgb(0, 81, 88),rgb(105, 173, 173))  ;
+    
+}
+.service button{
+   background: #009ba3;
+   border:3px solid cyan;
+    width: 100px;
+    height: 40px;
+}
+.service2 button{
+    background: #009ba3;
+    border:3px solid cyan;
+     width: 100px;
+     height: 40px;
+ }
+.service button:hover{
+    background: #009ba3;
+    border:3px solid cyan;
+     width: 150px;
+     height: 50px;
+ }
+ .service2 button:hover{
+    background: #009ba3;
+    border:3px solid cyan;
+     width: 150px;
+     height: 50px;
+ }
+ .service button:active{
+    background: #093234;
+    border:3px solid cyan;
+     width: 150px;
+     height: 50px;
+ }
+ .service2 button:active{
+    background: #093234;
+    border:3px solid cyan;
+     width: 150px;
+     height: 50px;
+ }
+ .footer {
+    height:100px;
+    margin-top:1700px;
+    text-align: center;
+    background-color: rgb(57, 50, 43);
+    width:100%;
+    
+    text-align: center;
+ }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="portflio.css">
+    <style>
+        body {
+            /* font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display:flex; */
+            /* justify-content: center;
+            align-items: center; */
+         
+        }
+
+        .login-container {
+            background: #fff;
+            padding: 20px;
+            margin-top:100px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width:25%;
+            height: 350px;
+             margin-left:35%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .login-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            
+        }
+
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 14px;
+            display: none;
+            margin-bottom: 15px;
+        }
+        .nav{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-top">
+        <header>
+          <a href="#" class="logo">THRIU PORT</a>
+          <nav>
+              <ul class="nav-link">
+                  <li><a href="portflio.html">home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="ex.html">log in</a></li>
+                  <li><a href="#">service</a></li>
+      
+              </ul>
+          </nav>
+      </header></div>
+    <br><br>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="error-message" id="error-message">Invalid credentials, please try again.</div>
+        <form id="login-form" action="submit.html">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit" herf="">Login</button>
+           <div class="forget"> <a href=""class="forget1" >forget password</a></div>
+        </form>
+    </div>
+
+     <script>
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Dummy login validation
+            if (username === 'username' && password === 'password') {
+                alert('Login successful!');
+            } else {
+                const errorMessage = document.getElementById('error-message');
+                errorMessage.style.display = 'block';
+            }
+        });
+    </script> 
+</body>
+</html>
